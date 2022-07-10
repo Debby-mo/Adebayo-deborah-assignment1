@@ -6,6 +6,12 @@ Complete any two out of the three challenges. See below for details of each chal
 
 #### Challenge - 1
 > In `src/assignment.mjs`, implement the `sumOfNumbers` function. Calculate and return the sum of the numbers in the given array. If you did Challenge - 1, remove the comment in the line just after the `sumOfNumbers` function, otherwise leave the comment.
+> let sumOfNumbers = [1,2,3,4]
+> let sum = 0;
+> for (let i = 0; i <sumOfNumbers .length; i++) {
+    sum += sumOfNumbers[i];
+}
+console.log(sum);
 
 #### Challenge - 2
 > In `src/assignment.mjs`, implement the `countEvenNumbers` function. Determine and return the count of all even numbers in the given array. If you did Challenge - 2, remove the comment in the line just after the `countEvenNumbers` function, otherwise leave the comment.
